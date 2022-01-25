@@ -1,5 +1,5 @@
 'use strict'
-const PACMAN = '<img src="/img/pacman.png">';
+const PACMAN = '<img src="img/pacman.png">';
 
 var gPacman;
 var gPacmanEatenCount = 0;
