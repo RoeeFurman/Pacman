@@ -1,6 +1,6 @@
 'use strict'
 // const GHOST = '&#9781;';
-const GHOST = '<img src="/img/ghost.png">';
+const GHOST = '<img src="img/ghost.png">';
 var gGhosts;
 var gIntervalGhosts;
 var gDeaeGhosts = [];
