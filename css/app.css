@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+table {
+  /* border-spacing: unset; */
+  border-collapse: collapse;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color:black;
+}
+
+
+.modal{
+  display: none;
+  position: absolute;
+  background-color: black;
+  top: 250px;
+  left: 270px;
+  height: 150px;
+  width: 300px;
+  border: 5px white solid;
+  transform: translateX(-50%);
+  margin: auto;
+  text-align: center;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.wall{
+  background-color: rgb(43, 248, 255);
+}
+
+
+.board-container {
+  background-color: black;
+  margin: auto;
+}
+
+img {
+  height: 40px;
+  background-color: black;
+  
+}
