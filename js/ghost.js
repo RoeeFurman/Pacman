@@ -84,8 +84,8 @@ function moveGhost(ghost) {
 }
 
 function getGhostHTML(ghost) {
-    if (gPacman.isSuper) return `<span style="color:orange"><img src="/img/ghost2.png"></span>`;
-    return `<span style="color:${ghost.color}"><img src="/img/ghost.png"></span>`
+    if (gPacman.isSuper) return `<span style="color:orange"><img src="img/ghost2.png"></span>`;
+    return `<span style="color:${ghost.color}"><img src="img/ghost.png"></span>`
 }
 
 function getMoveDiff() {
