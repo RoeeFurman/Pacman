@@ -102,7 +102,7 @@ function movePacman(ev) {
     // update the DOM
    
     // renderCell(gPacman.location, PACMAN)
-    renderCell(gPacman.location, ' <img src="/img/pacman.png">')
+    renderCell(gPacman.location, ' <img src="img/pacman.png">')
 }
 
 function getNextLocation(keyboardEvent) {
